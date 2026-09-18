@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZIZI - Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>ZIZI</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="accessories.html">Accessories</a></li>
+      <li><a href="outfits.html">Outfits</a></li>
+      <li><a href="sneaker.html">Sneakers</a></li>
+      <li>
+        <a href="cart.html" class="cart-link">
+          🛒 Cart <span id="cart-count">0</span>
+        </a>
+      </li>
+      <li>
+        <a href="login.html" title="Login">
+          <img src="img/login.png" alt="Login">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section class="cart-section">
+
+  <h1>YOUR CART</h1>
+
+  <div id="cart-container">
+    <!-- Cart products will appear here -->
+  </div>
+
+  <div class="cart-summary">
+    <h2>Total: ₹<span id="cart-total">0</span></h2>
+
+    <button class="checkout-btn" onclick="checkout()">
+      Proceed to Checkout
+    </button>
+
+    <button class="clear-btn" onclick="clearCart()">
+      Clear Cart
+    </button>
+  </div>
+
+</section>
+
+<footer>
+  <p>&copy; ZIZI. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

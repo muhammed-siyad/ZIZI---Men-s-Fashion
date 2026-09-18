@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ZIZI - Sneakers</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <h1>ZIZI</h1>
+
+    <nav>
+
+      <ul>
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="accessories.html">Accessories</a>
+        </li>
+
+        <li>
+          <a href="outfits.html">Outfits</a>
+        </li>
+
+        <li>
+          <a href="sneaker.html">Sneakers</a>
+        </li>
+
+        <!-- CART -->
+
+        <li>
+          <a href="cart.html" class="cart-link">
+            🛒 Cart
+            <span id="cart-count">0</span>
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- SNEAKERS -->
+
+  <section id="sneakers" class="category-section">
+
+    <h1>SNEAKERS</h1>
+
+
+    <!-- ROW 1 -->
+
+    <div class="product-grid">
+
+
+      <!-- URBAN KICKS -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes1.jpg"
+          alt="Urban Kicks"
+        >
+
+        <h3>Urban Kicks</h3>
+
+        <p>₹3120</p>
+
+        <button
+          onclick="addToCart('Urban Kicks', 3120, 'img/shoes1.jpg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- CLASSIC RUNNERS -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes2.jpg"
+          alt="Classic Runners"
+        >
+
+        <h3>Classic Runners</h3>
+
+        <p>₹1889</p>
+
+        <button
+          onclick="addToCart('Classic Runners', 1889, 'img/shoes2.jpg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- NEW BALANCE -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 3 (1).jpeg"
+          alt="New Balance"
+        >
+
+        <h3>New Balance</h3>
+
+        <p>₹2300</p>
+
+        <button
+          onclick="addToCart('New Balance', 2300, 'img/shoes 3 (1).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- JORDAN -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 3 (2).jpeg"
+          alt="Jordan"
+        >
+
+        <h3>Jordan</h3>
+
+        <p>₹3500</p>
+
+        <button
+          onclick="addToCart('Jordan', 3500, 'img/shoes 3 (2).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+
+    <div class="product-grid">
+
+
+      <!-- ADIDAS -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 3 (3).jpeg"
+          alt="Adidas"
+        >
+
+        <h3>Adidas</h3>
+
+        <p>₹5100</p>
+
+        <button
+          onclick="addToCart('Adidas', 5100, 'img/shoes 3 (3).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- NIKE -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 5.jpeg"
+          alt="Nike"
+        >
+
+        <h3>Nike</h3>
+
+        <p>₹6000</p>
+
+        <button
+          onclick="addToCart('Nike', 6000, 'img/shoes 5.jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- NEW BALANCE 2 -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 4.jpeg"
+          alt="New Balance"
+        >
+
+        <h3>New Balance</h3>
+
+        <p>₹3500</p>
+
+        <button
+          onclick="addToCart('New Balance 2', 3500, 'img/shoes 4.jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- NIKE AIR FORCE -->
+
+      <div class="product-card">
+
+        <img
+          src="img/shoes 3 (5).jpeg"
+          alt="Nike Air Force"
+        >
+
+        <h3>Nike Air Force</h3>
+
+        <p>₹4500</p>
+
+        <button
+          onclick="addToCart('Nike Air Force', 4500, 'img/shoes 3 (5).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>&copy; ZIZI. All rights reserved.</p>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

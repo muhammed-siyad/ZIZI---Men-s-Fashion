@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ZIZI - Outfits</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <h1>ZIZI</h1>
+
+    <nav>
+
+      <ul>
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="accessories.html">Accessories</a>
+        </li>
+
+        <li>
+          <a href="outfits.html">Outfits</a>
+        </li>
+
+        <li>
+          <a href="sneaker.html">Sneakers</a>
+        </li>
+
+        <!-- CART -->
+
+        <li>
+          <a href="cart.html" class="cart-link">
+            🛒 Cart
+            <span id="cart-count">0</span>
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- OUTFITS -->
+
+  <section id="outfits" class="category-section">
+
+    <h1>OUTFITS</h1>
+
+
+    <!-- ROW 1 -->
+
+    <div class="product-grid">
+
+
+      <!-- MODERN FIT SUIT -->
+
+      <div class="product-card">
+
+        <img
+          src="img/suit.jpg"
+          alt="Modern Fit Suit"
+        >
+
+        <h3>Modern Fit Suit</h3>
+
+        <p>₹5220</p>
+
+        <button
+          onclick="addToCart('Modern Fit Suit', 5220, 'img/suit.jpg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- TRADITIONAL WEAR -->
+
+      <div class="product-card">
+
+        <img
+          src="img/tredtional.jpg"
+          alt="Traditional Wear"
+        >
+
+        <h3>Traditional Wear</h3>
+
+        <p>₹1550</p>
+
+        <button
+          onclick="addToCart('Traditional Wear', 1550, 'img/tredtional.jpg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- CASUAL FIT -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit  (1).jpeg"
+          alt="Casual Fit"
+        >
+
+        <h3>Casual Fit</h3>
+
+        <p>₹2000</p>
+
+        <button
+          onclick="addToCart('Casual Fit', 2000, 'img/outfit  (1).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- STREET WEAR -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit  (4).jpeg"
+          alt="Street Wear"
+        >
+
+        <h3>Street Wear</h3>
+
+        <p>₹1899</p>
+
+        <button
+          onclick="addToCart('Street Wear', 1899, 'img/outfit  (4).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+
+    <div class="product-grid">
+
+
+      <!-- FORMAL FIT SUIT -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit  (3).jpeg"
+          alt="Formal Fit Suit"
+        >
+
+        <h3>Formal Fit Suit</h3>
+
+        <p>₹4220</p>
+
+        <button
+          onclick="addToCart('Formal Fit Suit', 4220, 'img/outfit  (3).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- CASUAL FIT 2 -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit  (2).jpeg"
+          alt="Casual Fit"
+        >
+
+        <h3>Casual Fit</h3>
+
+        <p>₹1550</p>
+
+        <button
+          onclick="addToCart('Casual Fit 2', 1550, 'img/outfit  (2).jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- OLD MONEY -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit 1.jpeg"
+          alt="Old Money"
+        >
+
+        <h3>Old Money</h3>
+
+        <p>₹1799</p>
+
+        <button
+          onclick="addToCart('Old Money', 1799, 'img/outfit 1.jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+
+      <!-- BAGGY FIT -->
+
+      <div class="product-card">
+
+        <img
+          src="img/outfit 2.jpeg"
+          alt="Baggy Fit"
+        >
+
+        <h3>Baggy Fit</h3>
+
+        <p>₹2499</p>
+
+        <button
+          onclick="addToCart('Baggy Fit', 2499, 'img/outfit 2.jpeg')"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>&copy; ZIZI. All rights reserved.</p>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
